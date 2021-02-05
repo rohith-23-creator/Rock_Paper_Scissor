@@ -1,4 +1,4 @@
-# Rock_Paper_Scissor
+# Rock_Paper_Scissor_game using Javascript
 Rock Paper Scissor game using Pure Javascript .  
 
 # Features 
