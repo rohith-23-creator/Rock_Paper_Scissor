@@ -9,7 +9,7 @@ Rock Paper Scissor game using Pure Javascript .
 
 3.Declaring the winner after every choice.
 
-4. Maximum Score of 20.
+4.Maximum Score of 20.
 
 5.Restarts after reaching maximumscore
 
