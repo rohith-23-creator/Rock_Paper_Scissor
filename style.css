@@ -1,0 +1,130 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:steelblue;
+    color: #fff;
+    font-family: sans-serif, monospace;
+    line-height: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+header.scoreBoard{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    color: #0083de;
+    font-weight: 300;
+    box-shadow: 3px 3px 10px #0d4561;
+}
+
+
+#game{
+    position: relative;
+}
+
+.welcome{
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 80px;
+    padding: 40px 30px;
+    animation-name: fadeOut;
+    animation: 1s ease-out;
+    z-index: 3;
+    transition: all 0.7s ease-out;
+}
+
+.welcome h1{
+    padding-bottom:1.4em;
+}
+
+a.enter{
+    background-color: #054869;
+    padding: .2em 2em;
+    color: #fff;    cursor: pointer;
+}
+
+a{
+    text-decoration:none;
+}
+
+.choices a.btn-enter{
+    background-color: #054869;
+    padding: .2em 2em;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.btn-enter:hover{
+    opacity: 0.8;
+}
+
+.match{
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    margin-top :1em;
+    transition: all 1s ease-in; 
+}
+
+
+
+.choices{
+    display: flex;
+    max-width: 600px;
+    margin: 2em auto;
+    cursor: pointer;
+}
+
+#output{
+    margin: 1em 0;
+}
+
+#welcome.fadeOut{
+    opacity: 0;
+    z-index: -1;
+}
+
+.match.fadeIn{
+    opacity: 1;
+}
+
+
+.endStatement{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+}
+
+.textGreen{
+    color :green;
+}
+
+.textRed{  
+    color: red;
+}
